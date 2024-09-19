@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Components.index');
 });
+
+
+
+//Route::prefix('admin')->group(function () {
+//    Route::prefix('auth')->group(function () {
+//        Route::get('/', )
+//    });
+//
+//});
